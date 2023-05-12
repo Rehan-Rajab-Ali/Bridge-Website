@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Merriweather:wght@300&family=Shantell+Sans:wght@300&family=Tilt+Warp&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.carousel{
+    z-index: -1;
+    position: relative;
+    bottom: 20px;
+}
+
+.navbar{
+    background-color: lightgray !important;
+    position: relative;
+    
+}
+
+#carouselExampleCaptions{
+box-shadow: 4px 4px 3px black;
+
+}
+
+h2{
+    padding-left: 30px;
+    text-shadow: 10px 2px 10px  gray;
+}
+#logo{
+    font-size: 25px;
+}
+.high{
+ font-size: 10px;
+}
+.dropdown-menu{
+background-color: gray;
+}
+.dropdown-item{
+ color: white;
+cursor: pointer;}
+.dropdown-item:hover{
+background-color: transparent !important;
+}
+#carouselExampleCaptions{
+position: relative;
+bottom:16px;
+}
+h1{
+    text-shadow: 5px 4px black;
+    font-family: 'Gloock', serif;
+    font-size: 50px;
+    cursor: pointer;
+    color:#c0392b;
+}
+h3{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 7px;
+    text-shadow: 4px 5px black;
+
+}
+.img{
+    /* background-color: green; */
+    transition: transform .10s;
+    border: 1px solid black;
+    margin: 0 auto;
+    box-shadow: 3px 3px 3px black;
+}
+.img:hover{
+    border: 2px solid black;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .link{
+    /* background-color: green; */
+    transition: transform .10s;
+    margin: 0 auto;
+  }
+.link:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.group{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: black;
+
+}
+.index{
+    color: white;
+}
+.group:hover   {
+    color: #c0392b ;
+}
+
+
+h5{
+    margin-left: 50px;
+}
+
+#highest{
+    font-size: 21px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.text{
+    cursor: pointer;
+}
+.text:hover{
+    color: #c0392b;
+    visibility: visible;
+}
+.img10{
+    height: 100vh;
+}
+#img{
+    text-align: center;
+    background-image:url(../img/backimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+    width: 100%;
+}
+
+#contact{
+text-decoration: none;
+color: #c0392b;
+cursor: pointer;
+
+}
+.about{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 50px;
+    color:black;
+    text-shadow: none;
+text-align: center;
+}
+.aboutus{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 50px;
+    color:white;
+    text-shadow: none;
+text-align: center;
+}
+#footer{
+    background-color: rgb(85, 38, 38) !important;
+}
+
+#insta:hover{
+    color: rgb(226, 43, 195) !important;
+}
+#face:hover{
+    color: #4764d8 !important;
+}
+#linkdin:hover{
+    color: #0984e3 !important;
+}
+#twit:hover{
+    color: #0984e3  !important;
+}
+.text:hover{
+    color: #c0392b !important;
+}
+.text-reset:hover{
+    color: black !important;
+}
+/* contact us css start */
+
+
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+#contactus{
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+/* contact us css end */
+
+
+/* registeration css start */
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+.gender{
+    color: black;
+}
+/* registeration css end */
+
+/* gallery css start */
+
+.dugebridge{
+border-radius: 10px;
+box-shadow: 3px 3px 3px black;
+}
+.sidubridge{
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    }
+    .sidubridge:hover{
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+.dugebridge:hover{
+border: 2px solid black;
+border-radius: 20px;
+}
+.goldenbridge{
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    }
+    .goldenbridge:hover{
+        border: 2px solid black;
+        border-radius: 20px;
+        }
+        .harbour{
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px black;
+            }
+            .harbour:hover{
+                border: 2px solid black;
+                border-radius: 20px;
+                }
+                .charles{
+                    border-radius: 10px;
+                    box-shadow: 3px 3px 3px black;
+                    }
+                    .charles:hover{
+                        border: 2px solid black;
+                        border-radius: 20px;
+                        }
+/* gallery css end */
+
+
+/* map css */
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+
+
+
+
+/* map css end */
+
+.mapin{
+    border: 1px solid black !important;
+}
+
+/* map css end */
+@media(max-width: 767px){
+    #hei{
+width: 100%;
+height: 800px;
+    }
+}
+@media(max-width: 1167px){
+
+       .mapin{
+width:800px !important;
+height:400px !important;
+}
+
+}
+
+@media(max-width: 850px){
+
+   .mapin{
+width:600px !important;
+height:300px !important;
+}
+
+}
+
+
+@media(max-width: 555px){
+
+   .mapin{
+width:250px !important;
+height:200px !important;
+}
+
+}
+@media(max-width: 730px){
+
+   .mapin{
+width:450px !important;
+height:400px !important;
+}
+
+}
+
+@media(max-width: 400px){
+
+   .mapin{
+width:340px !important;
+height:200px !important;
+}
+
+}
+
+@media(max-width: 1024px){
+
+    #insta{
+ margin-right: -1% !important;
+ }
+}
+
+@media(max-width: 1366px){
+
+    #insta{
+ margin-left: 39.5% !important;
+ }
+}
+
+@media(max-width: 1366px){
+
+.cardimg{
+
+    margin-left: 25% !important;
+}
+.card-title{
+        
+    margin-left: 27% !important;
+}
+}
+@media(max-width: 1366px){
+
+    .htitle{
+    
+        margin-left: 27% !important;
+    }
+    .ltitle{
+            
+        margin-left: 27% !important;
+    }
+    .otitle{
+        margin-left: 30% !important;
+    }
+
+    .duge{
+    
+        margin-left: 36% !important;
+    }
+
+.sidu{
+
+    margin-left: 31% !important;
+}
+.danyang{
+
+    margin-left: 25% !important;
+}
+.tianjin{
+
+    margin-left: 29% !important;
+}
+.near{
+
+    margin-left: 31% !important;
+}
+.frank{
+
+    margin-left: 25% !important;
+}
+
+}
+
+@media(max-width: 1024px){
+
+    .cardimg{
+    
+        margin-left: 20% !important;
+    }
+    
+    .duge{
+    
+        margin-left: 36% !important;
+    }
+
+.sidu{
+
+    margin-left: 29% !important;
+}
+.danyang{
+
+    margin-left: 22% !important;
+}
+.tianjin{
+
+    margin-left: 28% !important;
+}
+.near{
+
+    margin-left: 28% !important;
+}
+.frank{
+
+    margin-left: 22% !important;
+}
+
+    }
+    @media(max-width: 1024px){
+
+        .card-title{
+        
+            margin-left: 25% !important;
+        }
+        
+        }
+        @media(max-width: 1024px){
+
+            .htitle{
+            
+                margin-left: 24% !important;
+            }
+            
+            }
